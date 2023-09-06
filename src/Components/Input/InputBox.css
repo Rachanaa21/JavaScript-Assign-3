@@ -1,0 +1,22 @@
+.InputDiv {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  #InputBox {
+    padding: 8px;
+    width: 200px;
+    font-size: 12px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  #InputBox:focus {
+    border-color: #007bff; /* Change the border color when input is focused */
+    outline: none; /* Remove the default blue outline */
+  }
+  

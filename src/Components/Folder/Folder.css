@@ -1,0 +1,17 @@
+.folderWrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.folderWrapper span {
+    margin-right: 10px;
+}
+
+.createFolderBtn,
+.createFileBtn,
+.deleteBtn {
+    cursor: pointer;
+}
+
